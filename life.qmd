@@ -1,4 +1,0 @@
----
-title: "life"
-comments: false
----
