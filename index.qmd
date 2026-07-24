@@ -4,25 +4,69 @@ page-layout: article
 title-block-banner: false
 comments: false
 sidebar: false
-
-listing:
-  contents: posts
-  sort: "date desc"
-  template: postcard.ejs
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  feed: true
 ---
 
 <style>
-/* Only on homepage: Push content below the hero section */
+/* Push the News section below the full-screen introduction */
 #quarto-content {
   margin-top: 100vh !important;
 }
 </style>
 
-<!-- Hero Section -->
+<!-- Full-screen introduction -->
+```{=html}
+<div class="hero-section">
+  <div class="hero-content">
+
+    <img src="/bebop.JPG" class="hero-photo" alt="Victor Chamot">
+
+    <h1>Victor Chamot</h1>
+
+    <p class="hero-subtitle">
+      PhD Student in Linguistics at the University of Maryland
+    </p>
+
+    <div class="hero-bio">
+
+      <p>
+        I’m a linguistics graduate student at the University of Maryland,
+        working on formal semantics and syntax. My main research examines the
+        relationship between <strong>modal flavor</strong> and the syntactic
+        properties of complements. I study <strong>modal ellipsis</strong>
+        because I believe it provides insight into this relationship. My
+        approach is mainly theoretical, complemented by experimental work.
+      </p>
+
+      <p style="margin-top: 0.75rem; color: #555; font-size: 0.95em;">
+        I also have strong interests in logic, philosophy, psycholinguistics,
+        and neurolinguistics, and I am pursuing the NACS certificate alongside
+        my PhD. I have a longstanding interest in literature too, mostly
+        through listening to friends who chose that other path in studying
+        language.
+      </p>
+
+      <p style="margin-top: 0.75rem; color: #777; font-size: 0.9em;">
+        I’m advised by
+        <a href="https://linguistics.umd.edu/directory/valentine-hacquard" target="_blank">Valentine Hacquard</a>
+        and
+        <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>,
+        and was previously advised in Geneva by
+        <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: "Victor Chamot"
+page-layout: article
+title-block-banner: false
+comments: false
+sidebar: false
+---
+
+<style>
+/* Push the News section below the full-screen introduction */
+#quarto-content {
+  margin-top: 100vh !important;
+}
+</style>
+
+<!-- Full-screen introduction -->
 ```{=html}
 <div class="hero-section">
   <div class="hero-content">
@@ -73,8 +117,10 @@ listing:
     </div>
 
     <div class="hero-links">
+
       <a href="/research.html">research</a>
       <a href="/blog.html">blog</a>
+      <a href="#news">news</a>
 
       <a href="/files/cv.pdf" target="_blank" aria-label="CV">
         <i class="ai ai-cv"></i>
@@ -87,17 +133,21 @@ listing:
       <a href="https://linkedin.com/in/victor-chamot-a469" target="_blank" aria-label="LinkedIn">
         <i class="bi bi-linkedin"></i>
       </a>
+
     </div>
 
-    <div class="hero-email-link" style="margin-top: -1.5rem; margin-bottom: 2rem;">
+    <div class="hero-email-link"
+         style="margin-top: -1.5rem; margin-bottom: 2rem;">
+
       <a href="mailto:chamot@umd.edu"
          style="color: #555; text-decoration: underline; text-underline-offset: 4px;">
         chamot@umd.edu
       </a>
+
     </div>
 
     <div class="hero-scroll-down">
-      <span>blog posts</span>
+      <span>news</span>
       <i class="bi bi-chevron-down"></i>
     </div>
 
@@ -105,53 +155,21 @@ listing:
 </div>
 ```
 
-<!-- Force Quarto to load the Academicons stylesheet -->
+<!-- Force Quarto to load the CV icon -->
 <div style="display: none;">
   {{< ai cv >}}
 </div>
 
-<div class="main-content-wrapper">
+::: {#news .main-content-wrapper}
 
-::: {.about-bio}
+## News
 
-![](/bebop.JPG){.about-photo}
+- <time class="sidebar-news__date">2026</time> **French Modal Ellipsis and Anaphora** presented at Experiments in Linguistic Meaning 4 (ELM 4). [Read the abstract](https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf)
 
-**Victor Chamot**  
-PhD Student in Linguistics  
-University of Maryland  
+- <time class="sidebar-news__date">2025</time> Started my PhD in Linguistics at the University of Maryland.
 
-<i>
-Advised by
-<a href="https://linguistics.umd.edu/directory/valentine-hacquard" target="_blank">Valentine Hacquard</a>
-and
-<a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>
-</i>
-
-<span class="about-research">
-*Formal semantics, syntax, modality, and ellipsis, using theoretical and experimental approaches.*
-</span>
-
-<span class="about-previous">
-*Previously at the University of Geneva, where I worked with
-<a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/professeures-enseignantes/isabelle-charnavel" target="_blank">Isabelle Charnavel</a>
-and
-<a href="https://anoukdieuleveut.wordpress.com" target="_blank">Anouk Dieuleveut</a>.*
-</span>
-
-[chamot@umd.edu](mailto:chamot@umd.edu)
+[See my research →](/research.html)
 
 :::
-
-::: {.mobile-sidebar-news}
-
-### News
-
-- <time class="sidebar-news__date">2026</time> French Modal Ellipsis and Anaphora at Experiments in Linguistic Meaning 4 · [abstract](https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf)
-
-[Research →](/research.html){.sidebar-news__more}
-
-:::
-
-</div>
 
 <script src="/files/hero-scroll.js"></script>
