@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://chmvctr.github.io/index.html</loc>
-    <lastmod>2026-07-24T02:55:56.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chmvctr.github.io/research.html</loc>
-    <lastmod>2026-07-24T02:55:56.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chmvctr.github.io/blog.html</loc>
-    <lastmod>2026-07-24T02:55:56.776Z</lastmod>
+    <loc>https://chmvctr.github.io/news.html</loc>
+    <lastmod>2026-07-24T02:56:09.614Z</lastmod>
   </url>
   <url>
     <loc>https://chmvctr.github.io/posts/welcome/index.html</loc>
-    <lastmod>2026-07-24T02:55:56.778Z</lastmod>
+    <lastmod>2026-07-24T02:56:09.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chmvctr.github.io/blog.html</loc>
+    <lastmod>2026-07-24T02:56:09.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chmvctr.github.io/research.html</loc>
+    <lastmod>2026-07-24T02:56:09.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chmvctr.github.io/index.html</loc>
+    <lastmod>2026-07-24T02:56:09.614Z</lastmod>
   </url>
 </urlset>
