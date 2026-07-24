@@ -1,4 +1,4 @@
-# utkuturk.github.io
+# utkuturk.github.io 
 
 This repository contains the source code for my personal website using [Quarto](https://quarto.org/).
 
@@ -76,4 +76,4 @@ The **Papers**, **Talks**, and **Teaching** pages are not static HTML/Markdown l
     3.  Iterates through the lists and outputs the HTML using `cat()`.
 
 This approach ensures consistent formatting across all entries and allows for conditional logic (e.g., only showing a link if it exists).
-# victorchamot.github.io
+# chmvctr.github.io
