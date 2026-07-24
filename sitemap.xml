@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chmvctr.github.io/index.html</loc>
-    <lastmod>2026-07-24T01:54:32.259Z</lastmod>
-  </url>
-  <url>
-    <loc>https://chmvctr.github.io/research.html</loc>
-    <lastmod>2026-07-24T01:54:32.260Z</lastmod>
+    <lastmod>2026-07-24T01:55:40.375Z</lastmod>
   </url>
   <url>
     <loc>https://chmvctr.github.io/papers.html</loc>
-    <lastmod>2026-07-24T01:54:32.259Z</lastmod>
+    <lastmod>2026-07-24T01:55:40.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chmvctr.github.io/blog.html</loc>
+    <lastmod>2026-07-24T01:55:40.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://chmvctr.github.io/research.html</loc>
+    <lastmod>2026-07-24T01:55:40.377Z</lastmod>
   </url>
 </urlset>
