@@ -1,0 +1,9 @@
+---
+title: "Welcome"
+description: "An introduction to my new website and blog."
+date: 2026-07-23
+categories:
+  - General
+---
+
+Welcome to my website. I’ll use this blog to share occasional notes about linguistics, research, and related topics.
