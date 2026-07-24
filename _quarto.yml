@@ -18,9 +18,6 @@ website:
       - text: "Blog"
         href: blog.qmd
 
-      - text: "News"
-        href: news.qmd
-
       - text: "{{< ai cv >}}"
         href: /files/cv.pdf
         target: "_blank"
