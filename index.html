@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -43,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-d5c0e4b3bf74507fcd225aa89fc27bd5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-05500e955a4368d2f5f16fe5e7745179.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a4cd475455318efef68fe4dd44f9803d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -73,68 +71,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-margin-header','listing-engines','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-description','listing-date','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-margin-header","listing-engines","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-description","listing-date","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles-v1.css">
-<link rel="alternate" type="application/rss+xml" title="Victor Chamot" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
@@ -186,7 +126,7 @@ window.Quarto = {
 </div>
 </div></div>
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhbA==">General <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -194,12 +134,12 @@ window.Quarto = {
 
 
 <style>
-/* Only on homepage: Push content below the hero section */
+/* Push the News section below the full-screen introduction */
 #quarto-content {
   margin-top: 100vh !important;
 }
 </style>
-<!-- Hero Section -->
+<!-- Full-screen introduction -->
 <div class="hero-section">
   <div class="hero-content">
 
@@ -236,6 +176,56 @@ window.Quarto = {
         and
         <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>,
         and was previously advised in Geneva by
+        <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: " victor="" chamot"="" page-layout:="" article="" title-block-banner:="" false="" comments:="" sidebar:="" ---="" <style="">
+/* Push the News section below the full-screen introduction */
+#quarto-content {
+  margin-top: 100vh !important;
+}
+
+
+<!-- Full-screen introduction -->
+```{=html}
+</a></p><div class="hero-section"><a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: " victor="" chamot"="" page-layout:="" article="" title-block-banner:="" false="" comments:="" sidebar:="" ---="" <style="">
+  </a><div class="hero-content"><a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: " victor="" chamot"="" page-layout:="" article="" title-block-banner:="" false="" comments:="" sidebar:="" ---="" <style="">
+
+    <img src="./bebop.JPG" class="hero-photo" alt="Victor Chamot">
+
+    <h1>Victor Chamot</h1>
+
+    <p class="hero-subtitle">
+      PhD Student in Linguistics at the University of Maryland
+    </p>
+
+    </a><div class="hero-bio"><a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: " victor="" chamot"="" page-layout:="" article="" title-block-banner:="" false="" comments:="" sidebar:="" ---="" <style="">
+
+      <p>
+        I’m a linguistics graduate student at the University of Maryland,
+        working on formal semantics and syntax. My main research examines the
+        relationship between <strong>modal flavor</strong> and the syntactic
+        properties of complements. I study <strong>modal ellipsis</strong>
+        because I believe it provides insight into this relationship. My
+        approach is mainly theoretical, complemented by experimental work.
+      </p>
+
+      <p style="margin-top: 0.75rem; color: #555; font-size: 0.95em;">
+        I also have strong interests in logic, philosophy, psycholinguistics,
+        and neurolinguistics, and I am pursuing the NACS certificate alongside
+        my PhD. I have a longstanding interest in literature too, mostly
+        through listening to friends who chose that other path in studying
+        language.
+      </p>
+
+      </a><p style="margin-top: 0.75rem; color: #777; font-size: 0.9em;"><a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
+pagetitle: " victor="" chamot"="" page-layout:="" article="" title-block-banner:="" false="" comments:="" sidebar:="" ---="" <style="">
+        I’m advised by
+        </a><a href="https://linguistics.umd.edu/directory/valentine-hacquard" target="_blank">Valentine Hacquard</a>
+        and
+        <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>,
+        and was previously advised in Geneva by
         <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/professeures-enseignantes/isabelle-charnavel" target="_blank">Isabelle Charnavel</a>
         and
         <a href="https://anoukdieuleveut.wordpress.com" target="_blank">Anouk Dieuleveut</a>.
@@ -249,8 +239,10 @@ window.Quarto = {
     </div>
 
     <div class="hero-links">
+
       <a href="./research.html">research</a>
       <a href="./blog.html">blog</a>
+      <a href="#news">news</a>
 
       <a href="./files/cv.pdf" target="_blank" aria-label="CV">
         <i class="ai ai-cv"></i>
@@ -263,170 +255,41 @@ window.Quarto = {
       <a href="https://linkedin.com/in/victor-chamot-a469" target="_blank" aria-label="LinkedIn">
         <i class="bi bi-linkedin"></i>
       </a>
+
     </div>
 
     <div class="hero-email-link" style="margin-top: -1.5rem; margin-bottom: 2rem;">
+
       <a href="mailto:chamot@umd.edu" style="color: #555; text-decoration: underline; text-underline-offset: 4px;">
         chamot@umd.edu
       </a>
+
     </div>
 
     <div class="hero-scroll-down">
-      <span>blog posts</span>
+      <span>news</span>
       <i class="bi bi-chevron-down"></i>
     </div>
 
   </div>
 </div>
-<!-- Force Quarto to load the Academicons stylesheet -->
+<!-- Force Quarto to load the CV icon -->
 <div style="display: none;">
 <p><i class="ai  ai-cv" aria-label="cv"></i></p>
 </div>
-<div class="main-content-wrapper">
-<div class="about-bio">
-<p><img src="./bebop.JPG" class="about-photo img-fluid"></p>
-<p><strong>Victor Chamot</strong><br>
-PhD Student in Linguistics<br>
-University of Maryland</p>
-<p><i> Advised by <a href="https://linguistics.umd.edu/directory/valentine-hacquard" target="_blank">Valentine Hacquard</a> and <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a> </i></p>
-<p><span class="about-research"> <em>Formal semantics, syntax, modality, and ellipsis, using theoretical and experimental approaches.</em> </span></p>
-<p><span class="about-previous"> <em>Previously at the University of Geneva, where I worked with <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/professeures-enseignantes/isabelle-charnavel" target="_blank">Isabelle Charnavel</a> and <a href="https://anoukdieuleveut.wordpress.com" target="_blank">Anouk Dieuleveut</a>.</em> </span></p>
-<p><a href="mailto:chamot@umd.edu">chamot@umd.edu</a></p>
-</div>
-<section id="news" class="level3 mobile-sidebar-news">
-<h3 class="anchored" data-anchor-id="news">News</h3>
+<section id="news" class="level2 main-content-wrapper">
+<h2 class="anchored" data-anchor-id="news">News</h2>
 <ul>
-<li><time class="sidebar-news__date">2026</time> French Modal Ellipsis and Anaphora at Experiments in Linguistic Meaning 4 · <a href="https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf">abstract</a></li>
+<li><p><time class="sidebar-news__date">2026</time> <strong>French Modal Ellipsis and Anaphora</strong> presented at Experiments in Linguistic Meaning 4 (ELM 4). <a href="https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf">Read the abstract</a></p></li>
+<li><p><time class="sidebar-news__date">2025</time> Started my PhD in Linguistics at the University of Maryland.</p></li>
 </ul>
-<p><a href="./research.html" class="sidebar-news__more">Research →</a></p>
+<p><a href="./research.html">See my research →</a></p>
 </section>
-</div>
 <script src="./files/hero-scroll.js"></script>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<div class="postcard-list list"><!-- <-- important: include 'list' -->
-  
-    <div class="postcard" data-index="0" data-categories="R2VuZXJhbA==" data-listing-date-sort="1784764800000" data-listing-file-modified-sort="1784861825213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-      <!-- Invisible stretched link covers the whole card -->
-      <a href="./posts/welcome/index.html" class="stretched-link" aria-label="Read: Welcome"></a>
-
-      
-      
-
-      <div class="postcard-body">
-        <div class="postcard-main">
-          <h3 class="anchored">
-            <a href="./posts/welcome/index.html" class="listing-title">Welcome</a>
-          </h3>
-
-          
-            <p class="desc listing-description">An introduction to my new website and blog.</p>
-          
-          
-          <div class="postcard-info-row">
-            
-            
-              <!-- listing-date for the visible text; metadataAttrs carries the sortable value -->
-              <time class="date listing-date">Jul 23, 2026</time>
-            
-          </div>
-
-          <div class="postcard-bottom-row">
-            
-              <!-- hidden aggregator helps listing search on 'categories' field -->
-              <span class="sr-only listing-categories">General</span>
-
-              <div class="tags">
-                
-                  <div class="listing-category tag" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
-                    General
-                  </div>
-                
-              </div>
-            
-            <a href="./posts/welcome/index.html" class="read-btn" aria-label="Read post">Read</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-</div>
-
-<style>
-.postcard-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-/* screen-reader only helper for listing-* text fields */
-.sr-only {
-  position:absolute; width:1px; height:1px; padding:0; margin:-1px;
-  overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
-}
-
-.postcard {
-  position: relative;
-  display: flex;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  background: #fff;
-  overflow: hidden;
-  padding: 1.5rem 1rem 1rem;
-  align-items: flex-start;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.postcard:hover { transform: translateY(-4px); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
-
-/* stretched link overlay */
-.stretched-link { position: absolute; inset: 0; z-index: 1; text-indent: -9999px; }
-
-/* ensure interactive elements sit above the stretched link */
-.postcard .postcard-main h3 a,
-.postcard .desc,
-.postcard .tags,
-.postcard .listing-category,
-.postcard .read-btn { position: relative; z-index: 2; }
-
-/* thumbnail */
-.postcard-thumb { flex: 0 0 140px; margin-right: 1.25rem; }
-.postcard-thumb img {
-  width: 140px; height: 140px; object-fit: cover; border-radius: 8px;
-}
-
-/* body */
-.postcard-body { flex: 1; display: flex; align-items: flex-start; }
-.postcard-main { flex: 1; }
-.postcard-main h3 { margin: 0 0 0.25rem; font-size: 1rem; }
-.postcard-main h3 a { color: #111; font-weight: 700; text-decoration: none; }
-.postcard-main h3 a:hover { text-decoration: underline; }
-.postcard-main .desc { margin: 0 0 0.25rem; color: #444; font-size: 0.9rem; line-height: 1.3; }
-
-/* author + date on the same row */
-.postcard-info-row {
-  display: flex; justify-content: space-between; align-items: center; margin: 0.1rem 0 0;
-}
-.author { color: #6b7280; font-size: 0.8rem; }
-.date { color: #555; font-size: 0.85rem; }
-
-/* tags + read button row */
-.postcard-bottom-row { display: flex; justify-content: space-between; align-items: center; }
-.tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-.tag { background: #f3f4f6; color: #111; padding: 0.15rem 0.45rem; font-size: 0.75rem; border-radius: 4px; }
-
-.read-btn {
-  display: inline-block; padding: 0.3rem 0.8rem; background: #111827; color: #fff;
-  font-size: 0.8rem; font-weight: 600; border-radius: 4px; text-decoration: none;
-}
-.read-btn:hover { background: #1f2937; }
-.read-btn:visited { background: #6b7280; color: #e5e7eb; }
-</style>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div></div></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
