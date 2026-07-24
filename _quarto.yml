@@ -26,42 +26,16 @@ website:
       input-position: top
       theme: noborder_light
 
-
-
-
-
-
-
-
-
   navbar:
+    - text: research
+      href: research.qmd
 
-    pinned: true
-    right:
+    - text: blog
+      href: blog.qmd
 
-      - text: research
-        href: research.qmd
-      - text: papers
-        href: papers.qmd
-      - text: talks
-        href: talks.qmd
-      - text: teaching
-        href: teaching.qmd
-      - text: "{{< ai cv >}}"
-        href: /files/cv.pdf
-        target: "_blank"
-      - text: "{{< ai google-scholar >}}"
-        href: 
-        target: "_blank"
-      - icon: github
-        href: 
-        target: "_blank"
-      - icon: twitter
-        href: 
-        target: "_blank"
-      - icon: bluesky
-        href: 
-        target: "_blank"
+    - text: "{{< ai cv >}}"
+      href: /files/cv.pdf
+      target: "_blank"
 format:
   html:
     grid:
