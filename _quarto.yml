@@ -51,16 +51,16 @@ website:
         href: /files/cv.pdf
         target: "_blank"
       - text: "{{< ai google-scholar >}}"
-        href: https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ
+        href: 
         target: "_blank"
       - icon: github
-        href: https://github.com/utkuturk
+        href: 
         target: "_blank"
       - icon: twitter
-        href: https://twitter.com/UtkuTurkLing
+        href: 
         target: "_blank"
       - icon: bluesky
-        href: https://bsky.app/profile/utkuturk.com
+        href: 
         target: "_blank"
 format:
   html:
