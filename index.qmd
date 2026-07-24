@@ -51,59 +51,6 @@ sidebar: false
         and
         <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>,
         and was previously advised in Geneva by
-        <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/pro---
-pagetitle: "Victor Chamot"
-page-layout: article
-title-block-banner: false
-comments: false
-sidebar: false
----
-
-<style>
-/* Push the News section below the full-screen introduction */
-#quarto-content {
-  margin-top: 100vh !important;
-}
-</style>
-
-<!-- Full-screen introduction -->
-```{=html}
-<div class="hero-section">
-  <div class="hero-content">
-
-    <img src="/bebop.JPG" class="hero-photo" alt="Victor Chamot">
-
-    <h1>Victor Chamot</h1>
-
-    <p class="hero-subtitle">
-      PhD Student in Linguistics at the University of Maryland
-    </p>
-
-    <div class="hero-bio">
-
-      <p>
-        I’m a linguistics graduate student at the University of Maryland,
-        working on formal semantics and syntax. My main research examines the
-        relationship between <strong>modal flavor</strong> and the syntactic
-        properties of complements. I study <strong>modal ellipsis</strong>
-        because I believe it provides insight into this relationship. My
-        approach is mainly theoretical, complemented by experimental work.
-      </p>
-
-      <p style="margin-top: 0.75rem; color: #555; font-size: 0.95em;">
-        I also have strong interests in logic, philosophy, psycholinguistics,
-        and neurolinguistics, and I am pursuing the NACS certificate alongside
-        my PhD. I have a longstanding interest in literature too, mostly
-        through listening to friends who chose that other path in studying
-        language.
-      </p>
-
-      <p style="margin-top: 0.75rem; color: #777; font-size: 0.9em;">
-        I’m advised by
-        <a href="https://linguistics.umd.edu/directory/valentine-hacquard" target="_blank">Valentine Hacquard</a>
-        and
-        <a href="https://www.alexanderwilliams.org/home" target="_blank">Alexander Williams</a>,
-        and was previously advised in Geneva by
         <a href="https://www.unige.ch/lettres/linguistique/collaborateurs/collaborateurs-de-lenseignement-et-de-la-recherche/professeures-enseignantes/isabelle-charnavel" target="_blank">Isabelle Charnavel</a>
         and
         <a href="https://anoukdieuleveut.wordpress.com" target="_blank">Anouk Dieuleveut</a>.
