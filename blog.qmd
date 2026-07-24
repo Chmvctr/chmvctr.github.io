@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  filter-ui: true
+  sort-ui: false
+page-layout: full
+---
+
+Here I share occasional notes about linguistics, research, and related topics.
