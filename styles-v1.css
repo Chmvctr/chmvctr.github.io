@@ -660,3 +660,8 @@ body.hero-view-active .margin-header {
 
   /* Hide bio if it really doesn't fit */
 }
+
+/* Remove extra space above the navigation bar */
+#quarto-header {
+  padding-top: 0 !important;
+}
