@@ -8,22 +8,60 @@ sidebar: false
 
 My research lies at the intersection of formal semantics and syntax. I am particularly interested in how modal meaning relates to the syntactic properties of complements.
 
+::: {.legend-box}
+
+**Filter:**
+
+<span class="legend-item" data-topic="topic-semantics"><span class="legend-color topic-semantics"></span>Semantics</span>
+
+<span class="legend-item" data-topic="topic-syntax"><span class="legend-color topic-syntax"></span>Syntax</span>
+
+<span class="legend-item" data-topic="topic-processing"><span class="legend-color topic-processing"></span>Experiments</span>
+
+:::
+
+<script src="/files/filter-v1.js"></script>
+
+::: {.research-topic .topic-semantics .topic-syntax}
+
+## Modality and complement structure
+
+I investigate the relationship between modal flavor and the syntactic properties of complements. I am especially interested in how epistemic and non-epistemic interpretations interact with complement structure.
+
+My broader goal is to understand how syntactic structure constrains the interpretation of modal expressions.
+
+:::
+
+::: {.research-topic .topic-semantics .topic-syntax .topic-processing}
+
 ## Modal ellipsis and anaphora
 
-My current work examines modal ellipsis and anaphora in French. I use these phenomena to investigate the relationship between modal flavor, especially epistemic and non-epistemic interpretations, and complement structure.
+My current work examines modal ellipsis and anaphora in French. I use these phenomena to investigate the relationship between modal flavor, complement structure, and the interpretation of unpronounced material.
 
-My approach is primarily theoretical, complemented by experimental work. More broadly, I am interested in how experimental evidence can inform formal analyses of meaning and grammatical structure.
+My approach is primarily theoretical, complemented by experimental work.
 
-## Selected work
+### Selected work
 
-### French Modal Ellipsis and Anaphora: Testing the Epistemic Restriction
+<div class="ref-item topic-semantics topic-syntax topic-processing">
+<span class="ref-text">
+<strong>Chamot, V.</strong> (2026). <em>French Modal Ellipsis and Anaphora: Testing the Epistemic Restriction.</em> Poster presented at Experiments in Linguistic Meaning 4 (ELM 4). <span class="paper-links">[<a href="https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf" target="_blank">abstract</a>]</span>
+</span>
+</div>
 
-This project tests the claim that French modal ellipsis and anaphora are unavailable with epistemic interpretations of *devoir*. It presents evidence from an acceptability-judgment experiment with 213 participants.
+:::
 
-Presented at **Experiments in Linguistic Meaning 4 (ELM 4)**.
+::: {.research-topic .topic-processing}
 
-[Read the abstract](https://elm-conference.net/wp-content/uploads/ELM4/Abstracts/paper144.pdf)
+## Experimental work
+
+I use experimental evidence to evaluate formal claims about modality and ellipsis. My current work includes an acceptability-judgment experiment with 213 participants testing the proposed epistemic restriction on French modal ellipsis and anaphora.
+
+:::
+
+::: {.research-topic .topic-semantics}
 
 ## Broader interests
 
 I also have strong interests in logic, philosophy, psycholinguistics, and neurolinguistics. I am pursuing the NACS certificate alongside my PhD.
+
+:::
