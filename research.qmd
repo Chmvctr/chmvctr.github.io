@@ -16,7 +16,7 @@ My research lies at the intersection of formal semantics and syntax. I am partic
 
 <span class="legend-item" data-topic="topic-syntax"><span class="legend-color topic-syntax"></span>Syntax</span>
 
-<span class="legend-item" data-topic="topic-processing"><span class="legend-color topic-processing"></span>Experiments</span>
+<span class="legend-item" data-topic="topic-experimental"><span class="legend-color topic-processing"></span>Experiments</span>
 
 :::
 
@@ -50,18 +50,11 @@ My approach is primarily theoretical, complemented by experimental work.
 
 :::
 
-::: {.research-topic .topic-processing}
+::: {.research-topic .topic-experimental}
 
 ## Experimental work
 
 I use experimental evidence to evaluate formal claims about modality and ellipsis. My current work includes an acceptability-judgment experiment with 213 participants testing the proposed epistemic restriction on French modal ellipsis and anaphora.
 
-:::
 
-::: {.research-topic .topic-semantics}
 
-## Broader interests
-
-I also have strong interests in logic, philosophy, psycholinguistics, and neurolinguistics. I am pursuing the NACS certificate alongside my PhD.
-
-:::
