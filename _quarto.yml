@@ -26,16 +26,18 @@ website:
       input-position: top
       theme: noborder_light
 
-  navbar:
-    - text: research
-      href: research.qmd
+    navbar:
+    pinned: true
+    right:
+      - text: research
+        href: research.qmd
 
-    - text: blog
-      href: blog.qmd
+      - text: blog
+        href: blog.qmd
 
-    - text: "{{< ai cv >}}"
-      href: /files/cv.pdf
-      target: "_blank"
+      - text: "{{< ai cv >}}"
+        href: /files/cv.pdf
+        target: "_blank"
 format:
   html:
     grid:
